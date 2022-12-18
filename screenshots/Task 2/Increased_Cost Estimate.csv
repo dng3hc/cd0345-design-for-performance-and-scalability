@@ -1,0 +1,21 @@
+Estimate summary								
+Upfront cost	Monthly cost	Total 12 months cost	Currency					
+0	19255.14	231061.68	USD					
+		* Includes upfront cost						
+								
+								
+Detailed Estimate								
+Group hierarchy	Region	Description	Service	Upfront	Monthly	First 12 months total	Currency	Configuration summary
+My Estimate	US East (N. Virginia)		Amazon EC2 	0	8967.2	107606.4	USD	"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 4), Enable disabled, Advance EC2 instance (p3.2xlarge), Pricing strategy (), Storage amount (100 GB), Snapshot Frequency (Daily)"
+My Estimate	US East (N. Virginia)		Amazon CloudFront	0	1861.2	22334.4	USD	"Data transfer out to internet (20000 GB per month), Data transfer out to origin (10000 GB per month), Number of requests (HTTPS) (10000000 per month)"
+My Estimate	US East (N. Virginia)		Application Load Balancer	0	74.83	897.96	USD	Number of Application Load Balancers (1)
+My Estimate	US East (N. Virginia)		Network Load Balancer	0	60.23	722.76	USD	"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (10 GB per hour)"
+My Estimate	US East (N. Virginia)		S3 Standard	0	2251.2	27014.4	USD	S3 Standard storage (100000 GB per month)
+My Estimate	US East (N. Virginia)		Data Transfer	0	0	0	USD	
+My Estimate	US East (N. Virginia)		Amazon RDS for PostgreSQL	0	2979.04	35748.48	USD	"Storage volume (Provisioned IOPS SSD (io1)), Provisioning IOPS (1000), Storage amount (1000 GB), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate	US East (N. Virginia)		Amazon EC2 	0	3061.44	36737.28	USD	"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 6), Enable disabled, Advance EC2 instance (m5a.4xlarge), Pricing strategy (), Storage amount (100 GB), Snapshot Frequency (Daily)"
+								
+								
+"Since the new app is social media, I added 4 p3.2xlarge, removed 2 m5a.4xlarge and increased S3 storage ten times for more media storage. I would have added S3 lambda to log or do some other tasks and Glacier but the cost for Glacier and Lambda is low so it doesnt matter"								
+Acknowledgement								
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."								
